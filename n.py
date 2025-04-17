@@ -204,21 +204,21 @@
 #         else:
 #             print("Noto'g'ri tanlov! Iltimos, 1, 2, 3 yoki 4 ni kiriting.")
 
-def pul_yechish(balanc):
+# def pul_yechish(balanc):
     
-    print("Pul yechish tizimiga xush kelibsiz!")
-    try:
-        sorov=float(input("Qancha pul yechmoqchisiz? "))
-        if sorov<=0:
-            raise ValueError("Pul manfiy yoki nol bo'lmasligi kerak.")
-        if sorov>balanc:
-            raise ValueError("Hisobda yetarli mablag' yo'q.")
-        balanc-=sorov
-        print(f"{sorov} so'm yechildi. Qolgan balans: {balanc} so'm.")
-    except ValueError as b:
-        print(f"Xatolik: {b}")
-    finally:
-        print(f"Jarayon tugatildi. Joriy balans: {balanc} so'm.")
-balanc=1000   
+#     print("Pul yechish tizimiga xush kelibsiz!")
+#     try:
+#         sorov=float(input("Qancha pul yechmoqchisiz? "))
+#         if sorov<=0:
+#             raise ValueError("Pul manfiy yoki nol bo'lmasligi kerak.")
+#         if sorov>balanc:
+#             raise ValueError("Hisobda yetarli mablag' yo'q.")
+#         balanc-=sorov
+#         print(f"{sorov} so'm yechildi. Qolgan balans: {balanc} so'm.")
+#     except ValueError as b:
+#         print(f"Xatolik: {b}")
+#     finally:
+#         print(f"Jarayon tugatildi. Joriy balans: {balanc} so'm.")
+# balanc=1000   
 
-pul_yechish(balanc)
+# pul_yechish(balanc)

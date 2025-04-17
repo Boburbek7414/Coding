@@ -41,3 +41,15 @@
 #         print(f"Jarayon tugatildi. Joriy balans: {balans} so'm")
 # balans=1000
 # pul_yechish(balans)
+
+
+
+
+
+
+
+
+
+
+
+
